@@ -46,7 +46,7 @@ Wants=network-online.target
 
 [Service]
 User=$USER
-ExecStart=$(echo $HOME)/pipe/pop --ram=12 --pubKey pubkey-yazaro --max-disk 175 --cache-dir $(echo $HOME)/download_cache
+ExecStart=$(echo $HOME)/pipe/pop --ram=12 --pubKey pubkey-yazın --max-disk 175 --cache-dir $(echo $HOME)/download_cache
 Restart=always
 RestartSec=5
 LimitNOFILE=65536
